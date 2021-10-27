@@ -1,0 +1,164 @@
+*{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0 ;
+}
+
+#header{
+    width:100%;
+    height:48px;
+    background-color: black;
+    margin: 0 0 3% 0;
+    padding: 0 0 0 0 ;
+}
+
+#content{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    height: 20%;
+}
+
+.menu{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    border: solid 2px black;
+    height: 50px;
+    width:20%;
+    margin-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#tabs{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.contact{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    border: solid 2px black;
+    height: 50px;
+    width:20%;
+    margin-left: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    
+}
+
+#tabs > div{
+    font-size: xx-large;
+}
+
+.contact:hover, .menu:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.menuInfo{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    min-height: 10vh;
+    border: solid 2px black;
+    margin-top:5%;
+    margin-left: 30%;
+    margin-bottom: 5%;
+    animation: fadeIn 1.5s;
+}
+
+.contactInfo{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    min-height: 10vh;
+    border: solid 2px black;
+    margin-top:5%;
+    margin-left: 30%;
+    margin-bottom: 5%;
+    animation: fadeIn 1.5s;
+}
+
+.contactInfo > p{
+    font-style: italic;
+    text-align: center;
+
+}
+
+.contactInfo > h2{
+    padding: 2% 0% 2% 2%;
+    text-align: center;
+}
+
+.contactInfo > h2:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.menuInfo > p{
+    font-style: italic;
+    text-align: center;
+
+}
+
+.menuInfo > div{
+    padding: 2% 0% 2% 2%;
+    text-align: center;
+}
+
+.menuInfo > div:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+
+.contactInfo > img{
+    width: 80%;
+    height:80%;
+    margin-bottom: 10%;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #e6e6e6;
+}
+
+footer > p{
+    padding: 1% 1% 1% 1%;
+}
